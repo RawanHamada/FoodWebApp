@@ -1,11 +1,3 @@
-/*start navbar*/
-/*.container{
-	height: 80px
-}*/
-/*.container-fluid{
-	margin-top: 40px;
-	margin-bottom: 64px
-}*/
 body{
 	font-family: Montserrat;
 }
@@ -34,13 +26,10 @@ body{
 #main-nav{
 	background-color: #fff;
 }
-/*.navbar-nav{
-	margin-left: 300px
-}*/
+
 .navbar-nav .nav-link{
 	font-size: 16px;
 	font-family: Montserrat;
-	/*font-style: normal;*/
 	font-weight: 600;
 	margin-left: 60px;
 	padding-top: 63px;
@@ -57,19 +46,12 @@ body{
 		text-align: center;
 		margin: auto;
 	}
-	/*.navbar-nav .nav-item.active > .nav-link{
-		color: rgba(0,0,0,.5)
-	}*/
-	/*.navbar-nav .nav-item.active > a:visited{
-		color: #ec1c23
-	}*/
+
 }
 /*end navbar*/
 
 /*start sec-one*/
 .sec-one{
-	/*position: relative;*/
-	/*height: 618px;*/
 	text-align: center;
 	background-image: url('../img/Rectangle 48.png');
 	background-size: cover;
@@ -112,8 +94,6 @@ body{
     text-align: center;
     position: relative;
     z-index: 2;
-	/*display: flex;
-	justify-content: center;*/
 }
 .sec-one button{
 	margin: auto;
@@ -168,8 +148,6 @@ body{
 	}
 
   .sec-one .p-two{
-  	/*font-size: 20px;
-  	color: #737373;*/
   	padding-bottom: 40px
   }
   .sec-one .sec-one-btn{
@@ -194,21 +172,15 @@ body{
 }	 
 .sec-two .sec-two-img {
   	    margin-top: -290px;
-    text-align: center;
- /*    display: flex; 
-     justify-content: center;*/ 
-    
+    text-align: center;    
     max-width: 884px;
   }
 
  
 @media (max-width: 768px) {
 	.sec-two{
-		/*position: relative;*/
 	    background-color: #FAFAFA;
    		padding-right: 23px;
-  		/*width: 320px;*/
-			/*height: 50px*/
 	}
 	.sec-two .sec-two-img{
 		background-color: #FAFAFA;
@@ -229,10 +201,6 @@ body{
 /*end sec-two*/
 
 /*start sec-three*/
-.sec-three {
-	/*display: flex;
-	justify-content: center;*/
-}
 .sec-three .container{
 	    border-top: 1px solid #E4E4E4;
 }
@@ -242,12 +210,6 @@ body{
 	font-family: Poppins ;
 	font-weight: 600
 }
-/*.sec-three .sec-three-content >h2{
-	m
-}*/
-/*.sec-three .sec-three-content {
-	padding: 0px 200px
-}*/
 .sec-three .sec-three-content > h3 ,
 .sec-four .sec-four-content > h3 ,
 .sec-five .sec-five-content > h3{
@@ -269,36 +231,19 @@ body{
 .sec-three .sec-three-content > h4 ,
 .sec-four .sec-four-content > h4,
 .sec-five .sec-five-content > h4{
-	/*text-align: center;*/
 	color: #737373;
 	padding-top: 15px;
 	font-size: 24px;
 	font-family: Montserrat;
 	font-weight: 500
 }
-
-.sec-three .sec-three-content ,.sec-five .sec-five-content{
-	/*padding: 300px 0;*/
-}
-.sec-three .container .row .col-md-12{
-	/*margin-left: 540px;*/
-
-}
-
-.sec-three .sec-three-img{
-	/*width: 305px;*/
-/*    text-align: center;
-*/	/*margin-left: 150px*/
-}
 @media (max-width: 320px) {
 	.sec-three{
-		/*margin: 0;*/
 		background-color: #FAFAFA;
-		/*height: 50px*/
 	}
 	.sec-three #row-h{
-		    margin-top: -120px;
-    font-size: 24px;
+		margin-top: -120px;
+    	font-size: 24px;
 	}
 	.sec-three .sec-three-content {
 
@@ -309,11 +254,6 @@ body{
     	padding-top: 35px;
    		font-size: 25px;
 	}
-	/*.sec-three .sec-three-content p{
-		max-width: 260px;
-    margin: auto;
-    font-size: 24px;	
-	}*/
 	.sec-three .sec-three-content h4{
 		    width: 257px;
 		    margin: auto;
@@ -321,26 +261,16 @@ body{
 	.sec-three .sec-three-img img{
 		margin-left : 15px
 	} 
-	/*.sec-three  .sec-three-img  img{
-		width: 305px
-	}*/
 }
 /*end sec-three*/
+
 /*start sec-four*/
-/*.sec-four{
-	padding:500px 0;
-}*/
-/*.sec-four .sec-four-img{
-	padding: 0px 115px;
-}*/
 .sec-four .sec-four-content{
 	padding: 0 8px
 }
 @media (max-width: 320px) {
 	.sec-four{
-		/*position: relative;*/
 		background-color: #FAFAFA;
-		/*height: 50px*/
 	}
 	.sec-four .sec-four-content{
 		text-align: center
@@ -354,15 +284,9 @@ body{
 		width: 280px
 	}
 	.sec-four .sec-four-content h4{
-	/*max-width: 260px;*/
-  /*  font-size: 24px;
-	    width: 257px;
-	    height: 152px;
-	    margin: auto;*/
 	    font-size: 24px;
-    width: 257px;
-    /* height: 152px; */
-    margin: auto;
+    	width: 257px;
+  		margin: auto;
 	}
 	.sec-four .sec-four-img img{
 		margin-left : 15px
@@ -402,7 +326,6 @@ body{
 
 /*start sec sex*/
 .sec-sex{
-	/*padding-top: 10px;*/
 	background-image: url('../img/Rectangle 47.png');
 	background-size: cover;
 	background-position: center;
@@ -430,9 +353,6 @@ body{
     text-align: center;
     margin-top: 60px;	 
 	padding-bottom: 200px
-    /*padding-top: 89px*/
-	/*display: flex;
-	justify-content: center;*/
 }
 .sec-sex button{
 	margin: auto;
@@ -475,13 +395,11 @@ body{
 	}
 	.sec-sex .h_display{
 		display: flex;
-		/*justify-content: center;*/
 		margin-left: 35px;
 		color: #BDBDBD;
 		font-size: 24px;
 		margin-bottom: 60px;
 		width: 245px;
-		/*text-align: center;*/
 	}
 	.sec-sex .sec-sex-btn{
 		padding-bottom: 110px
@@ -536,15 +454,6 @@ footer .social li:last-of-type i{
 .social li:last-of-type i:hover:before{
 	background-color: red
 }
-/*.fa-instagram-square:before:hover{
-	border-radius: 20px
-	color: #ddd
-
-}*/
-/*footer .social  i #insta{
-	color: #fff;
-	background-color: #FA4A0C
-}*/
 footer p{
 	font-size: 12px;
 	text-align: right;
